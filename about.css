@@ -1,0 +1,148 @@
+.heading{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #002D5BFF;
+    position: relative;
+}
+
+.heading::after{
+    content: "";
+    height: 1px;
+    width: 50px;
+    background-color: #EC5B53FF;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* --------------------------------------------------- */
+
+.aboutMe .top{
+    width: 100%;
+    text-align: center;
+    background-color: #FEFAFAFF;
+    padding-top: 20px;
+    padding-bottom:80px;
+}
+
+.aboutMe .top h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #002D5BFF;
+    position: relative;
+}
+.aboutMe .top h2::after{
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: #EC5B53FF;
+    position: absolute;
+    left: 567px;
+    top: 117px;
+}
+
+.aboutMe .wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutMe .wrapper .left{
+    width: 33%;
+    position: relative;
+}
+.aboutMe .wrapper .left img{
+    width: 300px;
+    border-radius: 10px 10px 10px 10px ;
+}
+.aboutMe .wrapper .left .forImg{
+    width: 300px;
+    height: 488px;
+    background-color: #EC5B53FF;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    z-index: -1;
+    top: -18px;
+    left: 20px;
+}
+
+.aboutMe .wrapper .middle{
+    width: 33%;
+}
+
+
+
+
+.aboutMe .wrapper .right{
+    width: 33%;
+}
+
+/* -------------************************************************************ */
+.feedback .wrapper2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -70px;
+}
+
+.feedback .wrapper2 .each{
+    width: 520px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, .1);
+}
+
+.feedback .wrapper2 .each i {
+    display: block;
+    margin: 10px;
+    color: #EC5B53FF;
+    font-size: 25px;
+}
+
+.feedback .wrapper2 .each img {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #EC5B53FF;
+    border-radius: 50%;
+    margin: 20px;
+
+}
+
+.feedback .wrapper2 .each div{
+    width: 70px;
+    height: 3px;
+    background-color: #EC5B53FF;
+    margin: 60px auto;
+    
+}
+
+.feedback .wrapper2 .each p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #35373AFF;
+    position: relative;
+    margin: 15px 0 60px;
+    line-height: 35px ;
+    padding: 0 15px;
+}
+
+.feedback .wrapper2 .each p:after {
+    content: "";
+    width: 35px;
+    height: 2px;
+    background-color: #EC5B53FF;
+    position: absolute;
+    left: 229px;
+    bottom: -67px;
+}
+
+.feedback .wrapper2 .each h4 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #002D5BFF;
+    padding: 27px 0;
+
+}
